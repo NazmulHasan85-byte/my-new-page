@@ -15,14 +15,21 @@ body{
     padding-top: 15px;
     padding-bottom:15px;
     border: 3px solid black;
-    background-image: linear-gradient(rgb(230, 108, 64),rgb(232, 201, 65));
-    
+    background-image: linear-gradient(rgb(230, 108, 64),rgb(232, 201, 65));    
+}
+.btn1:hover{
+    background-image: linear-gradient(rgb(34, 138, 170),rgb(90, 131, 201));
+    color: black;
 }
 .first-section{
     display: flex;
 }
 .first-div{
     max-width: 50%;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: x-large;
+    text-align: justify;
 }
 .second-div{
     max-width: 50%;
@@ -31,4 +38,37 @@ body{
     width: 50%;
     margin-left:25% ;
     margin-top: 100px;
+}
+.second-section{
+    display: flex;
+}
+.third-div{
+    max-width: 50%;
+}
+.forth-div{
+    max-width: 50%;
+    margin-top: 100px;
+    font-size: x-large;
+    text-align: justify;
+    margin-right: 40px;
+}
+.second-img{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 25%;
+}
+.btn2{
+    margin-left: 5%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    border: 3px solid black;
+    background-image: linear-gradient(rgb(84, 104, 52),rgb(232, 201, 65));
+    
+
+}
+.btn2:hover{
+    background-image: linear-gradient(rgb(34, 138, 170),rgb(90, 131, 201));
+    color: black;
 }
